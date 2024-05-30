@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Fake Article Detector</h1>
+    <form method="POST">
+        <label for="input_text">Enter Article:</label>
+        <input type="text" id="input_text" name="input_text" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
