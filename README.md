@@ -8,17 +8,4 @@ You can download it from the link below:
 👉 [Download Dataset from Google Drive](https://drive.google.com/file/d/1BOc9yvW-cF2NxUiU3yEOWw5-wRuADZEy/view?usp=sharing)
 
 
----
 
-## 🛠 How to Load the Dataset in Code
-
-You can directly read the dataset from the link using `pandas`:
-
-```python
-import pandas as pd
-
-# Replace with your actual Google Drive file ID
-url = 'https://drive.google.com/uc?id=YOUR_FILE_ID'
-df = pd.read_csv(url)
-
-print(df.head())
